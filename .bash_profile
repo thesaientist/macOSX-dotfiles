@@ -12,6 +12,9 @@ export PATH=/usr/local/trilinos/bin:$PATH
 export PATH=/usr/local/peridigm/bin:$PATH
 #export GNUPLOT_LIB=~/.gnuplot
 
+# add additional library paths as needed, if some of your executables demand it
+export DYLD_LIBRARY_PATH=/usr/local/trilinos/lib:$DYLD_LIBRARY_PATH
+
 # Additional environmental variables commonly used ------------------
 #export PERI=/Users/Pranav/Documents/Peridynamics/
 #export test=/Users/Pranav/Documents/Peridynamics/test/
