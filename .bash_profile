@@ -36,4 +36,4 @@ echo -ne "Uptime: "; uptime
 echo -ne "Server time is: "; date
 
 #source /usr/local/bin/virtualenvwrapper.sh
-source $(brew --prefix)/etc/profile.d/autojump.sh
+#source $(brew --prefix)/etc/profile.d/autojump.sh
