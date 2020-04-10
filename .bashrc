@@ -43,8 +43,6 @@ alias lla='ls -Gla'
 alias llA='ls -GlA'
 
 # Editors ----------------------------------------------------------
-export EDITOR='vim'  #Command line
-export GIT_EDITOR='vim'
 # alias mvim='/Applications/MacVim.app/Contents/MacOS/vim -g'
 
 if [ "$OS" = "darwin" ] ; then

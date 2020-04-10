@@ -21,8 +21,9 @@ export DYLD_LIBRARY_PATH=/usr/local/trilinos/lib:$DYLD_LIBRARY_PATH
 #export PER='/Users/Pranav/Google Drive/Peridynamics'
 
 # Editor environmental variables
-export EDITOR=/usr/bin/vi
-export MP_EDITOR=/usr/bin/edit
+export EDITOR=/usr/local/bin/atom
+export MP_EDITOR=/usr/local/bin/atom
+export GIT_EDITOR=/usr/local/bin/atom
 
 # Load in .bashrc --------------------------------------------------
 if [ -f ~/.bashrc ]; then
