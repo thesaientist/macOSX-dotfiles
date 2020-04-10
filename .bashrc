@@ -27,7 +27,7 @@ BWHT="\[\033[47m\]" # background white
 
 # Primary and Secondary prompts ------------------------------------
 # PS1="$HC$FYEL[ $FGRN\u is inprince $FYEL: $FMAG\w $FYEL]\\$ $RS"
-PS1="$HC$FBLK[$FRED${debian_chroot:+($debian_chroot)}\u a.k.a inPrince$FRED:$FRED\W$FBLK]\\$ $RS"
+PS1="[$FRED${debian_chroot:+($debian_chroot)}\u a.k.a inPrince$FRED:$FRED\W$RS]\\$ $RS"
 PS2="$HC$FRED&gt; $RS"
 
 # Navigation ---------------------------------------------------------
